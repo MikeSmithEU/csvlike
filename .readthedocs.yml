@@ -1,0 +1,16 @@
+version: 2
+
+sphinx:
+  configuration: docs/conf.py
+
+build:
+  image: latest
+
+python:
+  version: 3.9
+  install:
+    - requirements: docs/requirements.txt
+
+formats:
+  - htmlzip
+  - epub
