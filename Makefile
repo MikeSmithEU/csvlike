@@ -33,6 +33,6 @@ setuptools: env
 
 pypi: env setuptools test
 	$(PYTHON) setup.py sdist bdist_wheel
-	$(PYTHON) -m pip install --user --upgrade twine
+	$(PYTHON) -m pip install --upgrade twine
 	$(PYTHON) -m twine upload dist/*
 
