@@ -2,7 +2,7 @@
 CSV-like
 ========
 
-.. image:: https://img.shields.io/github/license/mikesmitheu/csvlike.svg
+.. image:: https://img.shields.io/github/license/MikeSmithEU/csvlike.svg
     :target: https://github.com/MikeSmithEU/csvlike/blob/main/LICENCE.md
 
 .. image:: https://img.shields.io/github/workflow/status/MikeSmithEU/csvlike/Python%20package
