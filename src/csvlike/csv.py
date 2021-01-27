@@ -169,7 +169,7 @@ class Reader:
 
         def yield_line():
             nonlocal line, field, mode, delimiter_is_whitespace, is_newline, cur_line
-            if not(mode == MODE_OUTSIDE and delimiter_is_whitespace):
+            if mode != MODE_OUTSIDE or not delimiter_is_whitespace:
                 next_field()
             field = []
             _line = line
